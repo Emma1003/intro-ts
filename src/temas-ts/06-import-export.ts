@@ -1,20 +1,20 @@
-import{calcularIVA2, Producto} from "./05-desestructura-funciones"
+import{calcularIVA2,producto} from"./05-desestructura-funciones";
 
-const carrito:Producto[]=[
-    {
-        desc: 'telefono1', 
-        precio: 100
-    },
-    {
-        desc: 'telefono2', 
-        precio: 200
-    }, 
-    {
-        desc: 'telefono3', 
-        precio: 300
-    }
+const carrito:producto[]=[   'carrito'
+     {
+        desc:'Telelefono1',
+        precio:100
+     },
+     {
+        desc:'Telelefono2',
+        precio:1000
+     },
+     {
+        desc:'Telelefono3',
+        precio:10000
+     }
+
 ]
-const [total, iva] = calcularIVA2(carrito); 
-console.log(`Total: ${total}`); 
-console.log(`IVA: ${iva}`);
-
+const [total,iva]=calcularIVA2(carrito);
+console.log('total:  ${total}');
+console.log('total:  ${iva}');
