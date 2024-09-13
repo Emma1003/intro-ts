@@ -18,3 +18,7 @@ const carrito:producto[]=[   'carrito'
 const [total,iva]=calcularIVA2(carrito);
 console.log('total:  ${total}');
 console.log('total:  ${iva}');
+
+
+
+
